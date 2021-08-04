@@ -1,0 +1,49 @@
+#plus-plan,
+#free-plan,
+#premium-plan {
+  border-style: solid;
+  border-color: black;
+  border: 2px 2px 2px 0;
+  border-left: none;
+  width: 85%;
+  margin: 15px 0;
+  padding: 20px;
+}
+
+#plus-plan {
+  background: #d5ffdc;
+  margin-top: 30px;
+}
+
+#plus-plan a,
+#free-plan a,
+#premium-plan a {
+  text-decoration: none;
+}
+
+#free-plan {
+  background: rgb(237, 252, 250);
+}
+
+#premium-plan {
+  background: #0e4f1f;
+}
+
+#premium-plan h1 {
+  color: white;
+}
+
+.package-title {
+  color: black;
+}
+
+.package-title__description {
+  color: #858585;
+}
+
+.package-title__description ~ p {
+  color: #0e4f1f;
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+}
