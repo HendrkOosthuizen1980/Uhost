@@ -131,14 +131,25 @@
 /* } */
 
 @media (min-width: 40rem) {
+  .key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
   .key-feature {
-    display: inline-block;
     width: 30%;
     max-width: 25rem;
-    vertical-align: top;
   }
+
   #key-features {
     margin-top: 5rem;
+  }
+
+  svg {
+    min-width: 5rem;
   }
 }
 
