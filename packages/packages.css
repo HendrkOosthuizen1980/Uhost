@@ -37,6 +37,12 @@ main {
   border-color: #ff5454;
 }
 
+.package:hover .package__title,
+.package:hover .package__subtitle,
+.package:hover .package__info {
+  animation: text-move 3s ease-out forwards;
+}
+
 .package a {
   text-decoration: none;
   color: inherit;
@@ -120,5 +126,17 @@ main {
   #free:hover,
   #free:active {
     border-right-color: #ff5454;
+  }
+}
+
+@keyframes text-move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(-10px);
   }
 }
